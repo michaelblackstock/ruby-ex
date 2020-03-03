@@ -1,4 +1,4 @@
-require 'rack/lobster'
+require 'rack/lobster' 
 
 map '/health' do
   health = proc do |env|
